@@ -5,4 +5,5 @@ import { stylexPlugin } from 'vite-plugin-stylex-dev'
 
 export default defineConfig({
   plugins: [remix(), tsconfigPaths(), stylexPlugin()],
+  envPrefix: 'PUBLIC_'
 });
